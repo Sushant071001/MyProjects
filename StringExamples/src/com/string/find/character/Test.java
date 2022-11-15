@@ -14,6 +14,7 @@ public class Test
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter character : ");
 		char n = sc.next().charAt(0);
+		sc.close();
 		
 		int count = 0;
 		
